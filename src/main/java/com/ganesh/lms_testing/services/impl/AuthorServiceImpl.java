@@ -2,7 +2,6 @@ package com.ganesh.lms_testing.services.impl;
 
 import com.ganesh.lms_testing.dtos.request.RequestAuthorDTO;
 import com.ganesh.lms_testing.dtos.response.ResponseAuthorDTO;
-import com.ganesh.lms_testing.dtos.response.ResponseBookDTO;
 import com.ganesh.lms_testing.exceptions.NotUpdateableException;
 import com.ganesh.lms_testing.exceptions.ResourceAlreadyExistException;
 import com.ganesh.lms_testing.exceptions.ResourceNotFoundException;
