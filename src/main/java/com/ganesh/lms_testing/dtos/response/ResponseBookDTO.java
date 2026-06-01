@@ -1,14 +1,12 @@
 package com.ganesh.lms_testing.dtos.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class ResponseBookDTO {
     private Long id;
     private String title;
